@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+  $("#botn").click(function () {
+    $("p").toggle();
+  });
+});
+</script>
+
+</head>
+
+
+<p>Se vc clicar em ESCONDER, irei sumir</p>
+
+<button id="hide">ESCONDER</button>
+<button id="show">APARECER</button>
+<button id="botn">TOGGLE</button>
+
+</body>
+</html>
